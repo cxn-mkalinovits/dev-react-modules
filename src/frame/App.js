@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router} from "react-router-dom";
 
-import modules from './modules';
+import modules from '../modules';
 
 import AppHeader from "./AppHeader";
 import AppContent from "./AppContent";

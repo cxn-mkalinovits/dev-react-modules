@@ -35,7 +35,8 @@ ul.App-nav {
   list-style: none;
 }
 
-ul.App-nav li {
+ul.App-nav li a {
+  display: block;
   padding: 0 12px;
   height: 44px;
   line-height: 48px;
@@ -49,7 +50,7 @@ ul.App-nav li {
   text-decoration: none;
 }
 
-.App-nav li.active {
+.App-nav li a.active {
   border-bottom: 4px solid skyblue;
   padding-bottom: 0;
   opacity: 1;

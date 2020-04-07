@@ -3,7 +3,9 @@ import React from 'react';
 function LeaderBoard() {
 
   return (
-    <h1>Leaderboard</h1>
+    <React.Fragment>
+      <h1>Leaderboard</h1>
+    </React.Fragment>
   );
 }
 
